@@ -1,2 +1,43 @@
 @import "variaveis";
 @import "globais";
+
+body {
+    header {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin-top: 0;
+    background: $xiketic;
+    color: $babyPowder;
+    
+        .name {
+            h1 {
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 2em;
+                padding: 5px 5px 5px 20px;
+            }
+        }
+        .nav {        
+            ul {
+                display: flex;
+                margin: 20px 40px;
+                //color: $babyPowder;
+                list-style: none;
+
+                li {
+                    margin-right: 15px;
+                    a {
+                        color: $babyPowder;
+                    }
+
+                }
+            }
+        }
+    }
+
+    main {
+        padding-top: 70px;
+    
+    }
+}
