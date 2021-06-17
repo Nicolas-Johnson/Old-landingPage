@@ -13,6 +13,14 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
 body header {
   position: fixed;
   display: flex;
@@ -39,5 +47,44 @@ body header .nav ul li a {
   color: #fffcf9;
 }
 body main {
-  padding-top: 70px;
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  background: #fffcf9;
+}
+body main section#inicio {
+  width: 100vw;
+  background: #34252f;
+}
+body main section#inicio .container {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+  justify-content: space-evenly;
+}
+body main section#inicio .container article.welcome {
+  width: 40%;
+  margin: auto;
+  color: #fffcf9;
+}
+body main section#inicio .container article.welcome h2 {
+  margin-bottom: 10px;
+}
+body main section#inicio .container article.welcome p {
+  margin-bottom: 20px;
+}
+body main section#inicio .container article.welcome a {
+  background: #0e4749;
+  color: #fffcf9;
+  padding: 8px 20px;
+  border-radius: 2px;
+}
+body main section#inicio .container article.img {
+  width: 50%;
+}
+body main section#inicio .container article.img img {
+  border: 5px solid #0e4749;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */

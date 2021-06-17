@@ -37,7 +37,52 @@ body {
     }
 
     main {
-        padding-top: 70px;
+        padding-top: 65px;
+        display: flex;
+        flex-direction: column;
+        background: $babyPowder;
+
+        section#inicio {
+            width: 100vw;
+            background: $blackCoffee;
+
+            .container {
+                display: flex;
+                width: 80%;
+                margin: 50px auto;
+                justify-content: space-evenly;
+
+                article.welcome {
+                    width: 40%;
+                    margin: auto;
+                    color: $babyPowder;
+                    
+                    h2 {
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        margin-bottom: 20px;
+                    }
+                    a {
+                        background: $warmBlack;
+                        color: $babyPowder;
+                        padding: 8px 20px;
+                        border-radius: 2px;
+                    }
+                }
+
+                article.img {
+                    width: 50%;
+                    img {
+                        border: 5px solid $warmBlack;
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            
+        }
     
     }
 }
