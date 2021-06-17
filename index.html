@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicolas_Johnson_Portfolio</title>
+    <title>Nicolas Johnson Portfolio</title>
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="#inicio">INICIO</a></li>
                 <li><a href="#sobre">SOBRE</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#porfolio">PORTFOLIO</a></li>
                 <li><a href="#contato">CONTATO</a></li>
             </ul>
         </div>
@@ -28,14 +28,14 @@
                 <p>Olá, bem vindo ao meu portfolio, aqui vou te mostra toda a minha evolução nessa nova jornada de Desenvolvedro Full Stack</p>
             </article>
             <article class="img">
-                <img src="NicolasJohnson.jpeg" alt="Foto Perfil" width=300px>
+                <img id="foto" src="NicolasJohnson.jpeg" alt="Foto Perfil" width=300px>
             </article>
             <a href="#">Entre em Contato</a>
         </section>
         <section id="sobre">
             <article class="text_area">
-                <h1>Ola, me chamo Nicolas Johnson</h1>
-                <h2>Sou brasileiro, tenho 25 anos e atualmente estudante de Desenvolvimento Full Stack na Trybe.</h2>
+                <h1>Ola, me chamo Nicolas <strong>Johnson</strong></h1>
+                <h2>Sou Brasileiro, tenho <b>25 anos</b> e atualmente estudante de Desenvolvimento <b>Full Stack</b> na <em>Trybe</em>.</h2>
                 <h3>Minhas abilidades até aqui são.</h3>
                 <ul>
                     <li class="principal"><strong>JavaScript</strong></li>
@@ -43,18 +43,44 @@
                     <li>CSS</li>
                     <li>SASS</li>
                 </ul>
-                <a href="#" download="" >Download CV</a>
+                <a href="#" download="" >Download <em>CV</em></a>
             </article>
             <article class="img_cv">
                 <img src="#" alt="Foto Perfil">
             </article>
         </section>
         <section id="porfolio">
-
+            <!--Aqui vou adicionar meus projetos. (Codigo e Link para visualização)-->
+            <h1>Meu <span>PORTFOLIO</span> </h1>
         </section>
     </main>
     <footer id="contato" >
-
+        <h1>Entre em <span>CONTATO</span></h1>
+        <div class="container">
+            <div class="forms">
+                <!--Aqui vai um formulario para prencher com nome email e mensagem a ser submetida ao meu e-mail-->
+                <input placeholder="Nome" type="text">
+                <input placeholder="E-mail" type="email">
+                <textarea name="message" placeholder="Sua mensagem" rows="6" cols="30"></textarea>
+            </div>
+            <div class="endereco">
+                <h3>CONTATO E ENDEREÇO</h3>
+                <h4>Maranguaple Ce/Brasil</h4>
+                <!--<h4>Rua Porto Alegre 430, Novo Maranguape</h4>-->
+                <h4>nicolas-sousa2011@hotmail.com</h4>
+                <!--<h4>nicolasssousa2011@gmail.com</h4>-->
+                <h4>(85) 9 8181-2951</h4>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a target="_blanck" href="https://www.linkedin.com/in/nicolas-johnson-279662210/">Meu Linkedin</a></li>
+                    <li><a target="_blanck" href="https://github.com/Nicolas-Johnson">Meu GitHub</a></li>
+                    <li><a target="_blanck" href="https://twitter.com/Nicolas_Silva16">Twitter</a></li>
+                    <li><a href="#foto">Minha foto?</a></li>
+                </ul>
+            </div>
+        </div>
+        <h4>Copyright © 2021 NicolasJohnson | Todos os direitos reservados</h4>        
     </footer>
 </body>
 </html>
