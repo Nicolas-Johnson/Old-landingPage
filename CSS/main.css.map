@@ -1,1 +1,1 @@
-{"version":3,"sources":["_variaveis.scss"],"names":[],"mappings":"AAOQ,uFAAA;AACA,0HAAA;AADA,uFAAA;AACA,0HAAA","file":"main.css"}
+{"version":3,"sources":["_variaveis.scss","_globais.scss","main.scss"],"names":[],"mappings":"AAOQ,uFAAA;AACA,0HAAA;AADA,uFAAA;AACA,0HAAA;ACNR;EACI,SAAA;EACA,UAAA;EACA,yCAAA;EACA,eAAA;ACGJ","file":"main.css"}
