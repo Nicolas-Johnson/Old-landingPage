@@ -118,9 +118,6 @@ body main section#sobre .cont article.text_area h1 span {
   font-size: 1em;
   font-weight: 400;
 }
-body main section#sobre .cont article.text_area p {
-  text-align: justify-right;
-}
 body main section#sobre .cont article.text_area p em {
   font-size: 1em;
 }
