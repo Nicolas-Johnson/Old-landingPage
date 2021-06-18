@@ -58,6 +58,10 @@ body header .nav ul li {
 }
 body header .nav ul li a {
   color: #fff;
+  transition: 1s;
+}
+body header .nav ul li a:hover {
+  border-bottom: 5px solid #a4161a;
 }
 body main {
   display: flex;
