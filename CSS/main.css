@@ -41,8 +41,8 @@ body header {
   width: 100vw;
   justify-content: space-between;
   margin-top: 0;
-  background: #14080e;
-  color: #fffcf9;
+  background: #0b090a;
+  color: #fff;
 }
 body header .name h1 {
   font-family: "Shadows Into Light", cursive;
@@ -57,69 +57,69 @@ body header .nav ul li {
   margin-right: 15px;
 }
 body header .nav ul li a {
-  color: #fffcf9;
+  color: #fff;
+  transition: 1s;
+}
+body header .nav ul li a:hover {
+  border-bottom: 5px solid #a4161a;
 }
 body main {
-  padding-top: 65px;
   display: flex;
   flex-direction: column;
-  background: #fffcf9;
+  background: #fff;
 }
 body main section#inicio {
-  width: 100vw;
-  background: #34252f;
+  background: url(../imagens/gettyimages-539028812-640x640.jpg);
+  background-size: contain;
+  background-position: top left;
+  height: 100vh;
 }
 body main section#inicio .container {
+  background: rgba(22, 26, 29, 0.822);
   display: flex;
-  width: 80%;
-  margin: 50px auto;
-  justify-content: space-evenly;
+  margin: auto;
+  height: 100vh;
 }
 body main section#inicio .container article.welcome {
-  width: 40%;
   margin: auto;
   color: #fffcf9;
 }
 body main section#inicio .container article.welcome h2 {
+  font-size: 2.5em;
   margin-bottom: 10px;
 }
 body main section#inicio .container article.welcome p {
+  font-size: 1.1em;
   margin-bottom: 20px;
 }
 body main section#inicio .container article.welcome a {
-  background: #0e4749;
-  color: #fffcf9;
+  background: #a4161a;
+  color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
 }
-body main section#inicio .container article.img {
-  width: 50%;
-}
-body main section#inicio .container article.img img {
-  border: 5px solid #0e4749;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
 body main section#sobre {
-  background: #34252f;
+  background: #fffcf9;
+  height: 100vh;
 }
 body main section#sobre .cont {
   display: flex;
-  flex-direction: row-reverse;
-  width: 80vw;
-  margin: 0 auto;
-  color: #fffcf9;
-  border-top: 5px solid #858786;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  color: #000;
 }
 body main section#sobre .cont article.text_area {
-  width: 500px;
-  margin: 0 auto;
+  width: 50%;
+  margin: auto;
   text-align: right;
 }
 body main section#sobre .cont article.text_area h1 span {
   font-size: 1em;
   font-weight: 400;
+}
+body main section#sobre .cont article.text_area p em {
+  font-size: 1em;
 }
 body main section#sobre .cont article.text_area h3 {
   font-weight: 700;
@@ -129,18 +129,21 @@ body main section#sobre .cont article.text_area ul {
   margin-bottom: 20px;
 }
 body main section#sobre .cont article.text_area a {
-  background: #0e4749;
-  color: #fffcf9;
+  background: #a4161a;
+  color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
 }
 body main section#sobre .cont article.img_cv {
-  margin: 0 auto;
-  padding: 10px;
+  margin: auto;
+  width: 50%;
 }
-body main section#sobre .cont article.img_cv img {
-  border: 5px solid #0e4749;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+body main section#sobre .cont article.img_cv .img {
+  margin: auto;
+  padding: 10px;
+  width: 90%;
+  height: 400px;
+  background: url(../NicolasJohnson.jpeg);
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */

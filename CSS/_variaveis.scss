@@ -4,14 +4,25 @@ $babyPowder: rgb(255, 252, 249);
 $warmBlack: rgb(14, 71, 73);
 $xiketic: rgb(20, 8, 14);
 $blackCoffee: rgb(52, 37, 47);
+        //New
+$richBlackFOGRA39: rgb(11, 9, 10);
+$erierBlack: rgb(22, 26, 29);
+$erierBlackA: rgba(22, 26, 29, 0.822);
+$bloodRed: rgb(102, 7, 8);
+$rubyRed: rgb(164, 22, 26);
+$carnelian: rgb(186, 24, 27);
+$cultured: rgb(245, 243, 244);
+$white: #fff;
+
     //Font
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); //font-family: 'Shadows Into Light', cursive; - Cabeçalho Nome.
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Shadows+Into+Light&display=swap'); //font-family: 'PT Sans Narrow', sans-serif; - 400 | font-family: 'Shadows Into Light', cursive; - 700
 
     //Mix's
 @mixin btn {
-    background: $warmBlack;
-    color: $babyPowder;
+    background: $rubyRed;
+    color: $white;
     padding: 8px 20px;
     border-radius: 5px;
 }
+
