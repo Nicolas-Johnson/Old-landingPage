@@ -54,14 +54,16 @@ body {
                 height: 100vh;
 
                 article.welcome {
-                    width: 40%;
+                    //width: 40%;
                     margin: auto;
                     color: $babyPowder;
                     
                     h2 {
+                        font-size: 2.5em;
                         margin-bottom: 10px;
                     }
                     p {
+                        font-size: 1.1em;
                         margin-bottom: 20px;
                     }
                     a {
