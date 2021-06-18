@@ -22,11 +22,10 @@ body {
             ul {
                 display: flex;
                 margin: 20px 40px;
-                //color: $babyPowder;
-                list-style: none;
 
                 li {
                     margin-right: 15px;
+
                     a {
                         color: $babyPowder;
                     }
@@ -45,7 +44,7 @@ body {
         section#inicio {
             width: 100vw;
             background: $blackCoffee;
-
+        
             .container {
                 display: flex;
                 width: 80%;
@@ -64,10 +63,7 @@ body {
                         margin-bottom: 20px;
                     }
                     a {
-                        background: $warmBlack;
-                        color: $babyPowder;
-                        padding: 8px 20px;
-                        border-radius: 2px;
+                        @include btn;
                     }
                 }
 
@@ -83,6 +79,52 @@ body {
             }
             
         }
-    
+
+        section#sobre {
+            background: $blackCoffee;
+
+            .cont {
+                display: flex;
+                flex-direction: row-reverse;
+                width: 80vw;               
+                margin: 0 auto;
+                color: $babyPowder; 
+                border-top: 5px solid $bettleshipGrey;   
+
+                article.text_area {
+                    width: 500px;
+                    margin: 0 auto;
+                    text-align: right;
+
+                    h1 {
+                        span {
+                            font-size: 1em;
+                            font-weight: 400;
+                        }
+                    }
+                    h3 {
+                        font-weight: 700;
+                        margin: 20px 0;
+                    }
+                    ul {
+                        margin-bottom: 20px;
+                    }
+                    a {
+                        @include btn;
+                    }
+                }
+                article.img_cv {
+                    margin: 0 auto;
+                    padding: 10px;
+
+                    img {
+                        border: 5px solid $warmBlack;
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }    
     }
 }
