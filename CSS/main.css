@@ -65,7 +65,7 @@ body main {
   background: #fff;
 }
 body main section#inicio {
-  background: #34252f;
+  background: url();
   height: 100vh;
 }
 body main section#inicio .container {
