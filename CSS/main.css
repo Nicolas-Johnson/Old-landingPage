@@ -71,9 +71,10 @@ body main section#inicio {
   height: 100vh;
 }
 body main section#inicio .container {
+  background: rgba(22, 26, 29, 0.822);
   display: flex;
-  width: 80%;
-  margin: 200px auto;
+  margin: auto;
+  height: 100vh;
 }
 body main section#inicio .container article.welcome {
   width: 40%;
