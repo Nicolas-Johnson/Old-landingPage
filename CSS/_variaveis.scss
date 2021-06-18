@@ -1,0 +1,17 @@
+    //Cores
+$bettleshipGrey: rgb(133, 135, 134);
+$babyPowder: rgb(255, 252, 249);
+$warmBlack: rgb(14, 71, 73);
+$xiketic: rgb(20, 8, 14);
+$blackCoffee: rgb(52, 37, 47);
+    //Font
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); //font-family: 'Shadows Into Light', cursive; - Cabeçalho Nome.
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Shadows+Into+Light&display=swap'); //font-family: 'PT Sans Narrow', sans-serif; - 400 | font-family: 'Shadows Into Light', cursive; - 700
+
+    //Mix's
+@mixin btn {
+    background: $warmBlack;
+    color: $babyPowder;
+    padding: 8px 20px;
+    border-radius: 5px;
+}

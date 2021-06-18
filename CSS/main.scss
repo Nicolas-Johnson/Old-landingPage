@@ -1,2 +1,130 @@
 @import "variaveis";
 @import "globais";
+
+body {
+    header {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin-top: 0;
+    background: $xiketic;
+    color: $babyPowder;
+    
+        .name {
+            h1 {
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 2em;
+                padding: 5px 5px 5px 20px;
+            }
+        }
+        .nav {        
+            ul {
+                display: flex;
+                margin: 20px 40px;
+
+                li {
+                    margin-right: 15px;
+
+                    a {
+                        color: $babyPowder;
+                    }
+
+                }
+            }
+        }
+    }
+
+    main {
+        padding-top: 65px;
+        display: flex;
+        flex-direction: column;
+        background: $babyPowder;
+
+        section#inicio {
+            width: 100vw;
+            background: $blackCoffee;
+        
+            .container {
+                display: flex;
+                width: 80%;
+                margin: 50px auto;
+                justify-content: space-evenly;
+
+                article.welcome {
+                    width: 40%;
+                    margin: auto;
+                    color: $babyPowder;
+                    
+                    h2 {
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        margin-bottom: 20px;
+                    }
+                    a {
+                        @include btn;
+                    }
+                }
+
+                article.img {
+                    width: 50%;
+                    img {
+                        border: 5px solid $warmBlack;
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            
+        }
+
+        section#sobre {
+            background: $blackCoffee;
+
+            .cont {
+                display: flex;
+                flex-direction: row-reverse;
+                width: 80vw;               
+                margin: 0 auto;
+                color: $babyPowder; 
+                border-top: 5px solid $bettleshipGrey;   
+
+                article.text_area {
+                    width: 500px;
+                    margin: 0 auto;
+                    text-align: right;
+
+                    h1 {
+                        span {
+                            font-size: 1em;
+                            font-weight: 400;
+                        }
+                    }
+                    h3 {
+                        font-weight: 700;
+                        margin: 20px 0;
+                    }
+                    ul {
+                        margin-bottom: 20px;
+                    }
+                    a {
+                        @include btn;
+                    }
+                }
+                article.img_cv {
+                    margin: 0 auto;
+                    padding: 10px;
+
+                    img {
+                        border: 5px solid $warmBlack;
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }    
+    }
+}
