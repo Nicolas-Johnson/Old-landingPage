@@ -42,7 +42,7 @@ body header {
   justify-content: space-between;
   margin-top: 0;
   background: #0b090a;
-  color: #fffcf9;
+  color: #fff;
 }
 body header .name h1 {
   font-family: "Shadows Into Light", cursive;
@@ -57,13 +57,12 @@ body header .nav ul li {
   margin-right: 15px;
 }
 body header .nav ul li a {
-  color: #fffcf9;
+  color: #fff;
 }
 body main {
-  padding-top: 65px;
   display: flex;
   flex-direction: column;
-  background: #fffcf9;
+  background: #fff;
 }
 body main section#inicio {
   background: #34252f;
@@ -72,7 +71,7 @@ body main section#inicio {
 body main section#inicio .container {
   display: flex;
   width: 80%;
-  margin: auto;
+  margin: 200px auto;
 }
 body main section#inicio .container article.welcome {
   width: 40%;
@@ -87,7 +86,7 @@ body main section#inicio .container article.welcome p {
 }
 body main section#inicio .container article.welcome a {
   background: #0e4749;
-  color: #fffcf9;
+  color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
 }
@@ -129,7 +128,7 @@ body main section#sobre .cont article.text_area ul {
 }
 body main section#sobre .cont article.text_area a {
   background: #0e4749;
-  color: #fffcf9;
+  color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
 }

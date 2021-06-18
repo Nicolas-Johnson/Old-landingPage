@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     margin-top: 0;
     background: $richBlackFOGRA39;
-    color: $babyPowder;
+    color: $white;
     
         .name {
             h1 {
@@ -27,7 +27,7 @@ body {
                     margin-right: 15px;
 
                     a {
-                        color: $babyPowder;
+                        color: $white;
                     }
 
                 }
@@ -36,19 +36,18 @@ body {
     }
 
     main {
-        padding-top: 65px;
         display: flex;
         flex-direction: column;
-        background: $babyPowder;
+        background: $white;
 
         section#inicio {
             background: $blackCoffee;
-            height: 100vh;
+            height: 100vh;            
         
             .container {
                 display: flex;
                 width: 80%;
-                margin: auto;
+                margin: 200px auto;
                 //justify-content: space-evenly;
 
                 article.welcome {
