@@ -110,7 +110,7 @@ body main section#sobre .cont {
   color: #000;
 }
 body main section#sobre .cont article.text_area {
-  width: 500px;
+  width: 50%;
   margin: auto;
   text-align: right;
 }
@@ -118,7 +118,10 @@ body main section#sobre .cont article.text_area h1 span {
   font-size: 1em;
   font-weight: 400;
 }
-body main section#sobre .cont article.text_area h2 em {
+body main section#sobre .cont article.text_area p {
+  text-align: justify-right;
+}
+body main section#sobre .cont article.text_area p em {
   font-size: 1em;
 }
 body main section#sobre .cont article.text_area h3 {
@@ -136,9 +139,14 @@ body main section#sobre .cont article.text_area a {
 }
 body main section#sobre .cont article.img_cv {
   margin: auto;
+  width: 50%;
+}
+body main section#sobre .cont article.img_cv .img {
+  margin: auto;
   padding: 10px;
-  width: 250px;
+  width: 90%;
   height: 400px;
   background: url(../NicolasJohnson.jpeg);
   background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */
