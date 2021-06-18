@@ -98,34 +98,28 @@ body main section#inicio .container article.welcome a {
   padding: 8px 20px;
   border-radius: 5px;
 }
-body main section#inicio .container article.img {
-  width: 50%;
-}
-body main section#inicio .container article.img img {
-  border: 5px solid #0e4749;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
 body main section#sobre {
-  background: #34252f;
+  background: #fffcf9;
+  height: 100vh;
 }
 body main section#sobre .cont {
   display: flex;
-  flex-direction: row-reverse;
   width: 80%;
-  margin: 0 auto;
-  color: #fffcf9;
-  border-top: 5px solid #858786;
+  margin: auto;
+  height: 100vh;
+  color: #000;
 }
 body main section#sobre .cont article.text_area {
   width: 500px;
-  margin: 0 auto;
+  margin: auto;
   text-align: right;
 }
 body main section#sobre .cont article.text_area h1 span {
   font-size: 1em;
   font-weight: 400;
+}
+body main section#sobre .cont article.text_area h2 em {
+  font-size: 1em;
 }
 body main section#sobre .cont article.text_area h3 {
   font-weight: 700;
@@ -141,12 +135,10 @@ body main section#sobre .cont article.text_area a {
   border-radius: 5px;
 }
 body main section#sobre .cont article.img_cv {
-  margin: 0 auto;
+  margin: auto;
   padding: 10px;
-}
-body main section#sobre .cont article.img_cv img {
-  border: 5px solid #0e4749;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  width: 250px;
+  height: 400px;
+  background: url(../NicolasJohnson.jpeg);
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

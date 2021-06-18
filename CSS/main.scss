@@ -47,7 +47,6 @@ body {
 
         section#inicio {
             background:  url(../imagens/gettyimages-539028812-640x640.jpg);
-            //background-repeat: no-repeat;
             background-size: contain;
             background-position: top left;
             height: 100vh;            
@@ -59,7 +58,6 @@ body {
                 height: 100vh;
 
                 article.welcome {
-                    //width: 40%;
                     margin: auto;
                     color: $babyPowder;
                     
@@ -75,40 +73,35 @@ body {
                         @include btn;
                     }
                 }
-
-                article.img {
-                    width: 50%;
-                    img {
-                        border: 5px solid $warmBlack;
-                        width: 300px;
-                        height: 300px;
-                        border-radius: 50%;
-                    }
-                }
-            }
-            
+            }            
         }
 
         section#sobre {
-            background: $blackCoffee;
+            background:  $babyPowder;
+            height: 100vh;  
 
             .cont {
                 display: flex;
-                flex-direction: row-reverse;
-                width: 80%;               
-                margin: 0 auto;
-                color: $babyPowder; 
-                border-top: 5px solid $bettleshipGrey;   
+                width: 80%;
+                margin: auto;
+                height: 100vh;             
+                color: #000;
 
                 article.text_area {
                     width: 500px;
-                    margin: 0 auto;
+                    margin: auto;
                     text-align: right;
 
                     h1 {
                         span {
                             font-size: 1em;
                             font-weight: 400;
+                        }
+                    }
+
+                    h2 {
+                        em {
+                            font-size: 1em;
                         }
                     }
                     h3 {
@@ -123,15 +116,12 @@ body {
                     }
                 }
                 article.img_cv {
-                    margin: 0 auto;
+                    margin: auto;
                     padding: 10px;
-
-                    img {
-                        border: 5px solid $warmBlack;
-                        width: 300px;
-                        height: 300px;
-                        border-radius: 50%;
-                    }
+                    width: 250px;
+                    height: 400px;
+                    background: url(../NicolasJohnson.jpeg);
+                    background-size: cover
                 }
             }
         }    
