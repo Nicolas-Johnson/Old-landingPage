@@ -65,7 +65,9 @@ body main {
   background: #fff;
 }
 body main section#inicio {
-  background: url();
+  background: url(../imagens/gettyimages-539028812-640x640.jpg);
+  background-size: contain;
+  background-position: top left;
   height: 100vh;
 }
 body main section#inicio .container {
