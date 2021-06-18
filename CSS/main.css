@@ -41,7 +41,7 @@ body header {
   width: 100vw;
   justify-content: space-between;
   margin-top: 0;
-  background: #14080e;
+  background: #0b090a;
   color: #fffcf9;
 }
 body header .name h1 {
@@ -66,14 +66,13 @@ body main {
   background: #fffcf9;
 }
 body main section#inicio {
-  width: 100vw;
   background: #34252f;
+  height: 100vh;
 }
 body main section#inicio .container {
   display: flex;
   width: 80%;
-  margin: 50px auto;
-  justify-content: space-evenly;
+  margin: auto;
 }
 body main section#inicio .container article.welcome {
   width: 40%;
@@ -107,7 +106,7 @@ body main section#sobre {
 body main section#sobre .cont {
   display: flex;
   flex-direction: row-reverse;
-  width: 80vw;
+  width: 80%;
   margin: 0 auto;
   color: #fffcf9;
   border-top: 5px solid #858786;

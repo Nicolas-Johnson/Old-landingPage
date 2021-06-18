@@ -8,7 +8,7 @@ body {
     width: 100vw;
     justify-content: space-between;
     margin-top: 0;
-    background: $xiketic;
+    background: $richBlackFOGRA39;
     color: $babyPowder;
     
         .name {
@@ -42,14 +42,14 @@ body {
         background: $babyPowder;
 
         section#inicio {
-            width: 100vw;
             background: $blackCoffee;
+            height: 100vh;
         
             .container {
                 display: flex;
                 width: 80%;
-                margin: 50px auto;
-                justify-content: space-evenly;
+                margin: auto;
+                //justify-content: space-evenly;
 
                 article.welcome {
                     width: 40%;
@@ -86,7 +86,7 @@ body {
             .cont {
                 display: flex;
                 flex-direction: row-reverse;
-                width: 80vw;               
+                width: 80%;               
                 margin: 0 auto;
                 color: $babyPowder; 
                 border-top: 5px solid $bettleshipGrey;   
