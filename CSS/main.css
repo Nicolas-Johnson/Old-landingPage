@@ -88,7 +88,7 @@ body main section#inicio .container article.welcome p {
   margin-bottom: 20px;
 }
 body main section#inicio .container article.welcome a {
-  background: #0e4749;
+  background: #a4161a;
   color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
@@ -130,7 +130,7 @@ body main section#sobre .cont article.text_area ul {
   margin-bottom: 20px;
 }
 body main section#sobre .cont article.text_area a {
-  background: #0e4749;
+  background: #a4161a;
   color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
