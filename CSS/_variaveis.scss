@@ -25,4 +25,10 @@ $white: #fff;
     padding: 8px 20px;
     border-radius: 5px;
 }
+@mixin sayhello {
+    background: $white;
+    color: #000;
+    padding: 10px 30px;
+    border: 1.5px solid #000;
+}
 
