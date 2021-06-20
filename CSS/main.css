@@ -11,6 +11,7 @@
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 h1 {
@@ -33,6 +34,12 @@ h3 {
 
 ul {
   list-style: none;
+}
+
+.lateral {
+  margin-right: 15px;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
 }
 
 body header {
@@ -146,4 +153,79 @@ body main section#sobre .cont article.img_cv .img {
   background: url(../imagens/NicolasJohnson.jpeg);
   background-size: cover;
   background-position: center;
+}
+body main section#portfolio {
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  background: #fffcf9;
+}
+body main section#portfolio h1 {
+  margin-top: 80px;
+}
+body main section#portfolio h1 span {
+  font-size: 1em;
+  font-weight: 400;
+}
+body main section#portfolio h3 {
+  font-weight: 400;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  background: #660708;
+  color: #fff;
+  text-align: center;
+}
+body footer h1 {
+  margin: 20px auto;
+}
+body footer h1 span {
+  font-size: 1em;
+  font-weight: 400;
+}
+body footer .social {
+  margin: 10px auto;
+}
+body footer .social ul {
+  display: flex;
+}
+body footer .social ul li a:hover {
+  color: #161a1d;
+}
+body footer .container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px auto;
+}
+body footer .container .sayhello {
+  margin: 20px auto;
+}
+body footer .container .sayhello h2 {
+  font-size: 0.9em;
+  text-align: right;
+  margin: 25px auto;
+}
+body footer .container .sayhello a {
+  background: #fff;
+  color: #000;
+  padding: 10px 30px;
+  border: 1.5px solid #000;
+}
+body footer .container .endereco {
+  margin: auto 50px;
+  text-align: left;
+  padding-right: 40px;
+  border-right: 1px solid #fff;
+}
+body footer .container .social {
+  margin: auto 50px;
+}
+body footer .container .social ul {
+  text-align: left;
+}
+body footer h4 {
+  margin: 10px auto;
+  font-weight: 400;
+  font-size: 0.8em;
 }/*# sourceMappingURL=main.css.map */
