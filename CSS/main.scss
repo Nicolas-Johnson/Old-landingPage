@@ -54,6 +54,7 @@ body {
             .container {
                 background: $erierBlackA;
                 display: flex;
+                flex-direction: column;
                 margin: auto;
                 height: 100vh;
 
@@ -71,6 +72,24 @@ body {
                     }
                     a {
                         @include btn;
+                    }
+                }
+                nav.social_icons {
+                    height: 10vh;
+                    margin: 0 auto;
+                    
+                    ul{
+                        display: flex; 
+                        justify-content: space-between; 
+                        li {
+                            margin-right: 30px;
+                            a {
+                                i {
+                                    color: $rubyRed;
+                                    font-size: 1.5em;
+                                }
+                            }                            
+                        } 
                     }
                 }
             }            
