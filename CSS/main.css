@@ -91,10 +91,16 @@ body main section#inicio .container {
 body main section#inicio .container article.welcome {
   margin: auto;
   color: #fffcf9;
+  text-align: center;
 }
 body main section#inicio .container article.welcome h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
+}
+body main section#inicio .container article.welcome h2 span {
+  font-size: 1em;
+  color: #a4161a;
+  font-weight: 600;
 }
 body main section#inicio .container article.welcome p {
   font-size: 1.1em;
