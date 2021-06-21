@@ -56,6 +56,11 @@ body header .name h1 {
   font-size: 2em;
   padding: 5px 5px 5px 20px;
 }
+body header .name h1 span {
+  font-size: 1em;
+  color: #a4161a;
+  font-family: "Shadows Into Light", cursive;
+}
 body header .nav ul {
   display: flex;
   margin: 20px 40px;

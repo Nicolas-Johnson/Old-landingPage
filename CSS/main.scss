@@ -16,6 +16,12 @@ body {
                 font-family: 'Shadows Into Light', cursive;
                 font-size: 2em;
                 padding: 5px 5px 5px 20px;
+
+                span {
+                    font-size: 1em;
+                    color: $rubyRed;
+                    font-family: 'Shadows Into Light', cursive;
+                }
             }
         }
         .nav {        
