@@ -250,7 +250,7 @@ body footer h1 span {
   font-weight: 400;
 }
 body footer .social {
-  margin: 10px auto;
+  margin: 10px auto 20px;
 }
 body footer .social ul {
   display: flex;
@@ -264,18 +264,19 @@ body footer .container {
   margin: 10px auto;
 }
 body footer .container .sayhello {
-  margin: 20px auto;
+  margin: auto;
 }
 body footer .container .sayhello h2 {
   font-size: 0.9em;
   text-align: right;
-  margin: 25px auto;
+  margin: 10px auto 25px;
 }
 body footer .container .sayhello a {
   background: #fff;
   color: #000;
   padding: 10px 30px;
   border: 1.5px solid #000;
+  border-radius: 5px;
 }
 body footer .container .endereco {
   margin: auto 50px;
@@ -290,7 +291,7 @@ body footer .container .social ul {
   text-align: left;
 }
 body footer h4 {
-  margin: 10px auto;
+  margin: 30px auto 10px;
   font-weight: 400;
   font-size: 0.8em;
 }/*# sourceMappingURL=main.css.map */
