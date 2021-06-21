@@ -125,7 +125,7 @@ body {
                     //box-shadow: 2px 2px 5px $erierBlackA;
 
                     .fa-js {
-                        color: rgb(201, 201, 54);
+                        color: rgb(224, 224, 70);
                         margin-left: 5px;
                     }
                     .fa-html5 {
@@ -186,6 +186,7 @@ body {
                         span {
                             font-size: 1em;
                             font-weight: 400;
+                            color: $carnelian;
                         }
                     }
 
@@ -233,6 +234,11 @@ body {
                 margin-top: 80px;
 
                 span {
+                    color: $carnelian;
+                    //font-family: 'Shadows Into Light', cursive;
+                }
+
+                span {
                     font-size: 1em;
                     font-weight: 400;
                 }
@@ -251,10 +257,12 @@ body {
 
         h1 {
             margin: 20px auto;
+            font-weight: 400;
 
             span {
                 font-size: 1em;
-                font-weight: 400;
+                font-weight: 700;
+                color: $erierBlack;
             }
         }
         .social {
