@@ -99,11 +99,69 @@ body {
             background:  $babyPowder;
             height: 100vh;  
 
+            section.habilidades {
+                margin: 75px auto;
+                display: flex;
+
+                .icons {
+                    margin: 0 auto; 
+                    //border: 1px solid #000;
+                    //width: 100px;
+                    //border-radius: .5em;
+                    //align-items: center;
+                    //box-shadow: 2px 2px 5px $erierBlackA;
+
+                    .fa-js {
+                        color: rgb(201, 201, 54);
+                        margin-left: 5px;
+                    }
+                    .fa-html5 {
+                        color: orange;
+                    }
+                    .fa-css3-alt {
+                        color: blue;
+                    }
+                    .fa-sass {
+                        color: pink;
+                    }
+                    .fa-git-alt {
+                        color: orangered;
+                    }  
+
+                    i {
+                        margin: 0 auto;
+                        font-size: 3em;
+                        align-self: center;
+                    }
+
+                    h2 {
+                        font-size: .9em;
+                        color: $erierBlack;
+                        text-align: center;
+                    } 
+                }
+
+                ul {
+                    margin: 80px auto 0;
+                    display: flex;
+
+                    li {
+                        margin: 0 auto;
+                        i {
+                            display: flex;
+                            flex-direction: column;
+                            color: $rubyRed;
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+            }
+
             .cont {
                 display: flex;
                 width: 80%;
                 margin: auto;
-                height: 100vh;             
+                height: 60vh;             
                 color: #000;
 
                 article.text_area {
@@ -119,8 +177,10 @@ body {
                     }
 
                     p {
+                        margin-bottom: 20px;
                         em {
                             font-size: 1em;
+                            
                         }
                     }
                     h3 {

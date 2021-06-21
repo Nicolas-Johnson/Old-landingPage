@@ -125,11 +125,57 @@ body main section#sobre {
   background: #fffcf9;
   height: 100vh;
 }
+body main section#sobre section.habilidades {
+  margin: 75px auto;
+  display: flex;
+}
+body main section#sobre section.habilidades .icons {
+  margin: 0 auto;
+}
+body main section#sobre section.habilidades .icons .fa-js {
+  color: #c9c936;
+  margin-left: 5px;
+}
+body main section#sobre section.habilidades .icons .fa-html5 {
+  color: orange;
+}
+body main section#sobre section.habilidades .icons .fa-css3-alt {
+  color: blue;
+}
+body main section#sobre section.habilidades .icons .fa-sass {
+  color: pink;
+}
+body main section#sobre section.habilidades .icons .fa-git-alt {
+  color: orangered;
+}
+body main section#sobre section.habilidades .icons i {
+  margin: 0 auto;
+  font-size: 3em;
+  align-self: center;
+}
+body main section#sobre section.habilidades .icons h2 {
+  font-size: 0.9em;
+  color: #161a1d;
+  text-align: center;
+}
+body main section#sobre section.habilidades ul {
+  margin: 80px auto 0;
+  display: flex;
+}
+body main section#sobre section.habilidades ul li {
+  margin: 0 auto;
+}
+body main section#sobre section.habilidades ul li i {
+  display: flex;
+  flex-direction: column;
+  color: #a4161a;
+  font-size: 1.5em;
+}
 body main section#sobre .cont {
   display: flex;
   width: 80%;
   margin: auto;
-  height: 100vh;
+  height: 60vh;
   color: #000;
 }
 body main section#sobre .cont article.text_area {
@@ -140,6 +186,9 @@ body main section#sobre .cont article.text_area {
 body main section#sobre .cont article.text_area h1 span {
   font-size: 1em;
   font-weight: 400;
+}
+body main section#sobre .cont article.text_area p {
+  margin-bottom: 20px;
 }
 body main section#sobre .cont article.text_area p em {
   font-size: 1em;
