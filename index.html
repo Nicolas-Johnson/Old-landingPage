@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/7610bbcc60.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
@@ -10,7 +11,7 @@
 <body>
     <header>
         <div class="name">
-            <h1>Nicolas Johnson</h1>
+            <h1>Nicolas <span>Johnson</span></h1>
         </div>
         <div class="nav">
             <ul>
@@ -26,25 +27,47 @@
             <div class="container">
                 <article class="welcome">
                     <h1>Olá, bem vindo!</h1>
-                    <h2>Eu sou um Desenvolvedor Full Stack</h2>
+                    <h2>Eu sou um desenvolvedor <span>Full Stack</span></h2>
                     <p>Olá, bem vindo ao meu portfolio, aqui vou te mostra toda a minha evolução nessa nova jornada de Desenvolvedor <strong>Full Stack</strong></p>
-                    <a href="#">Entre em Contato</a>
+                    <!--<a href="#contato">Entre em Contato</a>-->
                 </article>
+                <nav class="social_icons">
+                    <ul>
+                        <li><a target="_blank" href="https://twitter.com/Nicolas_Silva16"><i class="fab fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://github.com/Nicolas-Johnson"><i class="fab fa-github"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/nicolas-johnson-279662210/"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </nav>                
             </div>
         </section>
         <section id="sobre">
+            <section class="habilidades" >
+                <div class="icons">
+                    <i class="fab fa-js"></i>
+                    <h2>JavaScript</h2>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-html5"></i>
+                    <h2>HTML</h2>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-sass"></i>
+                    <h2>SASS</h2>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-git-alt"></i>
+                    <h2>GIT</h2>
+                </div>
+            </section>
             <div class="cont">
                 <!--<h1>Sobre MIM</h1>-->
                 <article class="text_area">
                     <h1>Nicolas <span>Johnson</span></h1>
                     <p>Brasileiro, 25 anos e atualmente estudante de Desenvolvimento Full Stack na <em>Trybe</em>. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure qui perspiciatis explicabo veritatis eveniet voluptatibus molestias quaerat repellat ipsa, aliquam, error voluptatem id? Ratione totam animi, odio beatae voluptatibus aspernatur. Accusantium, possimus placeat nihil alias ipsum recusandae quia atque libero maxime exercitationem adipisci rem eligendi modi cum. Necessitatibus, quibusdam quisquam? </p>
-                    <h3>Minhas abilidades até aqui são.</h3>
-                    <ul>
-                        <li class="principal"><strong>JavaScript</strong></li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SASS</li>
-                    </ul>
                     <a href="#" download="" >Download <em>CV</em></a>
                 </article>
                 <article class="img_cv">
@@ -60,35 +83,34 @@
     </main>
     <footer id="contato" >
         <h1>Entre em <span>CONTATO</span></h1>
-        <div class="social">
+        <nav class="social">
             <ul>
-                <li class="lateral" ><a target="_blanck" href="https://www.linkedin.com/in/nicolas-johnson-279662210/">Linkedin</a></li>
-                <li class="lateral"><a target="_blanck" href="https://github.com/Nicolas-Johnson">GitHub</a></li>
-                <li class="lateral"><a target="_blanck" href="https://twitter.com/Nicolas_Silva16">Twitter</a></li>
-                <li><a target="_blanck" href="imagens/NicolasJohnson.jpeg">EU</a></li>
+                <li class="lateral" ><a target="_blank" href="https://www.linkedin.com/in/nicolas-johnson-279662210/">Linkedin</a></li>
+                <li class="lateral"><a target="_blank" href="https://github.com/Nicolas-Johnson">GitHub</a></li>
+                <li><a target="_blank" href="https://twitter.com/Nicolas_Silva16">Twitter</a></li>
             </ul>
-        </div>
+        </nav>
         <div class="container">
             <div class="sayhello">
                 <h2>Tem um PROJETO?</h2>
-                <h2>Pequeno ou grande, Pode chamar.</h2>
+                <h2>Pequeno ou grande, pode chamar.</h2>
                 <a href="#">nicolas-sousa2011@hotmail.com</a>
             </div>
-        <!--<div class="forms">   Esse forme sera apresentado em forma de requisição javaScript - Ficara um botão entre em contato que redirecionara para um forsm como esse.        
+            <!--<div class="forms">
                 <input placeholder="Nome" type="text">
                 <input placeholder="E-mail" type="email">
                 <textarea name="message" placeholder="Sua mensagem" rows="6" cols="30"></textarea>
             </div>-->
             <div class="endereco">
                 <h3>CONTATO E ENDEREÇO</h3>
-                <h4>Maranguape/Ce Brasil</h4>
+                <h4>Fortaleza-Ce Brasil</h4>
                 <!--<h4>Rua Porto Alegre 430, Novo Maranguape</h4>-->
                 <!--<h4>nicolas-sousa2011@hotmail.com</h4>-->
                 <h4>nicolasssousa2011@gmail.com</h4>
-                <h4>(85) 9 8181-2951</h4>
+                <h4>+55 85 98181-2951</h4>
             </div>
         </div>
-        <h4>Copyright © 2021 Nicolas_Johnson | Todos os direitos reservados</h4>        
+        <h4>Copyright © 2021 Nicolas Johnson | Todos os direitos reservados</h4>        
     </footer>
 </body>
 </html>

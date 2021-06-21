@@ -56,6 +56,11 @@ body header .name h1 {
   font-size: 2em;
   padding: 5px 5px 5px 20px;
 }
+body header .name h1 span {
+  font-size: 1em;
+  color: #a4161a;
+  font-family: "Shadows Into Light", cursive;
+}
 body header .nav ul {
   display: flex;
   margin: 20px 40px;
@@ -84,16 +89,23 @@ body main section#inicio {
 body main section#inicio .container {
   background: rgba(22, 26, 29, 0.822);
   display: flex;
+  flex-direction: column;
   margin: auto;
   height: 100vh;
 }
 body main section#inicio .container article.welcome {
   margin: auto;
   color: #fffcf9;
+  text-align: center;
 }
 body main section#inicio .container article.welcome h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
+}
+body main section#inicio .container article.welcome h2 span {
+  font-size: 1em;
+  color: #a4161a;
+  font-weight: 600;
 }
 body main section#inicio .container article.welcome p {
   font-size: 1.1em;
@@ -105,15 +117,76 @@ body main section#inicio .container article.welcome a {
   padding: 8px 20px;
   border-radius: 5px;
 }
+body main section#inicio .container nav.social_icons {
+  height: 10vh;
+  margin: 0 auto;
+}
+body main section#inicio .container nav.social_icons ul {
+  display: flex;
+  justify-content: space-between;
+}
+body main section#inicio .container nav.social_icons ul li {
+  margin-right: 30px;
+}
+body main section#inicio .container nav.social_icons ul li a i {
+  color: #a4161a;
+  font-size: 1.5em;
+}
 body main section#sobre {
   background: #fffcf9;
   height: 100vh;
+}
+body main section#sobre section.habilidades {
+  margin: 75px auto;
+  display: flex;
+}
+body main section#sobre section.habilidades .icons {
+  margin: 0 auto;
+}
+body main section#sobre section.habilidades .icons .fa-js {
+  color: #e0e046;
+  margin-left: 5px;
+}
+body main section#sobre section.habilidades .icons .fa-html5 {
+  color: orange;
+}
+body main section#sobre section.habilidades .icons .fa-css3-alt {
+  color: blue;
+}
+body main section#sobre section.habilidades .icons .fa-sass {
+  color: pink;
+}
+body main section#sobre section.habilidades .icons .fa-git-alt {
+  color: orangered;
+}
+body main section#sobre section.habilidades .icons i {
+  margin: 0 auto;
+  font-size: 3em;
+  align-self: center;
+}
+body main section#sobre section.habilidades .icons h2 {
+  font-size: 0.9em;
+  color: #161a1d;
+  text-align: center;
+}
+body main section#sobre section.habilidades ul {
+  margin: 80px auto 0;
+  display: flex;
+}
+body main section#sobre section.habilidades ul li {
+  margin: 0 auto;
+}
+body main section#sobre section.habilidades ul li i {
+  display: flex;
+  flex-direction: column;
+  color: #a4161a;
+  font-size: 1.5em;
 }
 body main section#sobre .cont {
   display: flex;
   width: 80%;
   margin: auto;
-  height: 100vh;
+  height: 60vh;
   color: #000;
 }
 body main section#sobre .cont article.text_area {
@@ -124,6 +197,10 @@ body main section#sobre .cont article.text_area {
 body main section#sobre .cont article.text_area h1 span {
   font-size: 1em;
   font-weight: 400;
+  color: #ba181b;
+}
+body main section#sobre .cont article.text_area p {
+  margin-bottom: 20px;
 }
 body main section#sobre .cont article.text_area p em {
   font-size: 1em;
@@ -164,6 +241,9 @@ body main section#portfolio h1 {
   margin-top: 80px;
 }
 body main section#portfolio h1 span {
+  color: #ba181b;
+}
+body main section#portfolio h1 span {
   font-size: 1em;
   font-weight: 400;
 }
@@ -179,13 +259,15 @@ body footer {
 }
 body footer h1 {
   margin: 20px auto;
+  font-weight: 400;
 }
 body footer h1 span {
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 700;
+  color: #161a1d;
 }
 body footer .social {
-  margin: 10px auto;
+  margin: 10px auto 20px;
 }
 body footer .social ul {
   display: flex;
@@ -199,18 +281,19 @@ body footer .container {
   margin: 10px auto;
 }
 body footer .container .sayhello {
-  margin: 20px auto;
+  margin: auto;
 }
 body footer .container .sayhello h2 {
   font-size: 0.9em;
   text-align: right;
-  margin: 25px auto;
+  margin: 10px auto 25px;
 }
 body footer .container .sayhello a {
   background: #fff;
   color: #000;
   padding: 10px 30px;
   border: 1.5px solid #000;
+  border-radius: 5px;
 }
 body footer .container .endereco {
   margin: auto 50px;
@@ -225,7 +308,7 @@ body footer .container .social ul {
   text-align: left;
 }
 body footer h4 {
-  margin: 10px auto;
+  margin: 30px auto 10px;
   font-weight: 400;
   font-size: 0.8em;
 }/*# sourceMappingURL=main.css.map */

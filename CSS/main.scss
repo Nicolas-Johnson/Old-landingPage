@@ -16,6 +16,12 @@ body {
                 font-family: 'Shadows Into Light', cursive;
                 font-size: 2em;
                 padding: 5px 5px 5px 20px;
+
+                span {
+                    font-size: 1em;
+                    color: $rubyRed;
+                    font-family: 'Shadows Into Light', cursive;
+                }
             }
         }
         .nav {        
@@ -49,21 +55,29 @@ body {
             background:  url(../imagens/gettyimages-539028812-640x640.jpg);
             background-size: contain;
             background-position: top left;
-            height: 100vh;            
+            height: 100vh;           
         
             .container {
                 background: $erierBlackA;
                 display: flex;
+                flex-direction: column;
                 margin: auto;
                 height: 100vh;
 
                 article.welcome {
                     margin: auto;
                     color: $babyPowder;
+                    text-align: center;
                     
                     h2 {
                         font-size: 2.5em;
                         margin-bottom: 10px;
+
+                        span {
+                            font-size: 1em;
+                            color: $rubyRed;
+                            font-weight: 600;
+                        }
                     }
                     p {
                         font-size: 1.1em;
@@ -73,6 +87,24 @@ body {
                         @include btn;
                     }
                 }
+                nav.social_icons {
+                    height: 10vh;
+                    margin: 0 auto;
+                    
+                    ul{
+                        display: flex; 
+                        justify-content: space-between; 
+                        li {
+                            margin-right: 30px;
+                            a {
+                                i {
+                                    color: $rubyRed;
+                                    font-size: 1.5em;
+                                }
+                            }                            
+                        } 
+                    }
+                }
             }            
         }
 
@@ -80,11 +112,69 @@ body {
             background:  $babyPowder;
             height: 100vh;  
 
+            section.habilidades {
+                margin: 75px auto;
+                display: flex;
+
+                .icons {
+                    margin: 0 auto; 
+                    //border: 1px solid #000;
+                    //width: 100px;
+                    //border-radius: .5em;
+                    //align-items: center;
+                    //box-shadow: 2px 2px 5px $erierBlackA;
+
+                    .fa-js {
+                        color: rgb(224, 224, 70);
+                        margin-left: 5px;
+                    }
+                    .fa-html5 {
+                        color: orange;
+                    }
+                    .fa-css3-alt {
+                        color: blue;
+                    }
+                    .fa-sass {
+                        color: pink;
+                    }
+                    .fa-git-alt {
+                        color: orangered;
+                    }  
+
+                    i {
+                        margin: 0 auto;
+                        font-size: 3em;
+                        align-self: center;
+                    }
+
+                    h2 {
+                        font-size: .9em;
+                        color: $erierBlack;
+                        text-align: center;
+                    } 
+                }
+
+                ul {
+                    margin: 80px auto 0;
+                    display: flex;
+
+                    li {
+                        margin: 0 auto;
+                        i {
+                            display: flex;
+                            flex-direction: column;
+                            color: $rubyRed;
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+            }
+
             .cont {
                 display: flex;
                 width: 80%;
                 margin: auto;
-                height: 100vh;             
+                height: 60vh;             
                 color: #000;
 
                 article.text_area {
@@ -96,12 +186,15 @@ body {
                         span {
                             font-size: 1em;
                             font-weight: 400;
+                            color: $carnelian;
                         }
                     }
 
                     p {
+                        margin-bottom: 20px;
                         em {
                             font-size: 1em;
+                            
                         }
                     }
                     h3 {
@@ -141,6 +234,11 @@ body {
                 margin-top: 80px;
 
                 span {
+                    color: $carnelian;
+                    //font-family: 'Shadows Into Light', cursive;
+                }
+
+                span {
                     font-size: 1em;
                     font-weight: 400;
                 }
@@ -159,14 +257,16 @@ body {
 
         h1 {
             margin: 20px auto;
+            font-weight: 400;
 
             span {
                 font-size: 1em;
-                font-weight: 400;
+                font-weight: 700;
+                color: $erierBlack;
             }
         }
         .social {
-            margin: 10px auto;
+            margin: 10px auto 20px;
 
             ul {
                 display: flex;
@@ -187,12 +287,12 @@ body {
             margin: 10px auto;
 
             .sayhello {
-                margin: 20px auto;
+                margin: auto;
 
                 h2 {
                     font-size: .9em;
                     text-align: right;
-                    margin: 25px auto;
+                    margin: 10px auto 25px;
                 }
                 a {
                     @include sayhello;
@@ -213,7 +313,7 @@ body {
 
         }
         h4 {
-            margin: 10px auto;
+            margin: 30px auto 10px;
             font-weight: 400;
             font-size: .8em;
         }
