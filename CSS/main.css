@@ -93,25 +93,28 @@ body main section#inicio .container {
   margin: auto;
   height: 100vh;
 }
-body main section#inicio .container article.welcome {
+body main section#inicio .container .welcome {
   margin: auto;
   color: #fffcf9;
   text-align: center;
 }
-body main section#inicio .container article.welcome h2 {
+body main section#inicio .container .welcome h1 {
+  font-size: 1.5em;
+}
+body main section#inicio .container .welcome h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
 }
-body main section#inicio .container article.welcome h2 span {
+body main section#inicio .container .welcome h2 span {
   font-size: 1em;
   color: #a4161a;
   font-weight: 600;
 }
-body main section#inicio .container article.welcome p {
+body main section#inicio .container .welcome p {
   font-size: 1.1em;
   margin-bottom: 20px;
 }
-body main section#inicio .container article.welcome a {
+body main section#inicio .container .welcome a {
   background: #a4161a;
   color: #fff;
   padding: 8px 20px;
