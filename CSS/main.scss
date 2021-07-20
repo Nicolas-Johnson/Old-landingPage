@@ -51,7 +51,7 @@ body {
         flex-direction: column;
         background: $white;
 
-        section#inicio {
+        section#home {
             background:  url(../imagens/gettyimages-539028812-640x640.jpg);
             background-size: contain;
             background-position: top left;
@@ -112,11 +112,11 @@ body {
             }            
         }
 
-        section#sobre {
+        section#about {
             background:  $babyPowder;
             height: 100vh;  
 
-            section.habilidades {
+            section.skills {
                 margin: 75px auto;
                 display: flex;
 
@@ -174,7 +174,7 @@ body {
                 }
             }
 
-            .cont {
+            .content {
                 display: flex;
                 width: 80%;
                 margin: auto;
@@ -302,7 +302,7 @@ body {
                     @include sayhello;
                 }
             }
-            .endereco {
+            .address {
                 margin: auto 50px;
                 text-align: left;
                 padding-right: 40px;
