@@ -80,149 +80,152 @@ body main {
   flex-direction: column;
   background: #fff;
 }
-body main section#inicio {
+body main section#home {
   background: url(../imagens/gettyimages-539028812-640x640.jpg);
   background-size: contain;
   background-position: top left;
   height: 100vh;
 }
-body main section#inicio .container {
+body main section#home .container {
   background: rgba(22, 26, 29, 0.822);
   display: flex;
   flex-direction: column;
   margin: auto;
   height: 100vh;
 }
-body main section#inicio .container article.welcome {
+body main section#home .container .welcome {
   margin: auto;
   color: #fffcf9;
   text-align: center;
 }
-body main section#inicio .container article.welcome h2 {
+body main section#home .container .welcome h1 {
+  font-size: 1.5em;
+}
+body main section#home .container .welcome h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
 }
-body main section#inicio .container article.welcome h2 span {
+body main section#home .container .welcome h2 span {
   font-size: 1em;
   color: #a4161a;
   font-weight: 600;
 }
-body main section#inicio .container article.welcome p {
+body main section#home .container .welcome p {
   font-size: 1.1em;
   margin-bottom: 20px;
 }
-body main section#inicio .container article.welcome a {
+body main section#home .container .welcome a {
   background: #a4161a;
   color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
 }
-body main section#inicio .container nav.social_icons {
+body main section#home .container nav.social_icons {
   height: 10vh;
   margin: 0 auto;
 }
-body main section#inicio .container nav.social_icons ul {
+body main section#home .container nav.social_icons ul {
   display: flex;
   justify-content: space-between;
 }
-body main section#inicio .container nav.social_icons ul li {
+body main section#home .container nav.social_icons ul li {
   margin-right: 30px;
 }
-body main section#inicio .container nav.social_icons ul li a i {
+body main section#home .container nav.social_icons ul li a i {
   color: #a4161a;
   font-size: 1.5em;
 }
-body main section#sobre {
+body main section#about {
   background: #fffcf9;
   height: 100vh;
 }
-body main section#sobre section.habilidades {
+body main section#about section.skills {
   margin: 75px auto;
   display: flex;
 }
-body main section#sobre section.habilidades .icons {
+body main section#about section.skills .icons {
   margin: 0 auto;
 }
-body main section#sobre section.habilidades .icons .fa-js {
+body main section#about section.skills .icons .fa-js {
   color: #e0e046;
   margin-left: 5px;
 }
-body main section#sobre section.habilidades .icons .fa-html5 {
+body main section#about section.skills .icons .fa-html5 {
   color: orange;
 }
-body main section#sobre section.habilidades .icons .fa-css3-alt {
+body main section#about section.skills .icons .fa-css3-alt {
   color: blue;
 }
-body main section#sobre section.habilidades .icons .fa-sass {
+body main section#about section.skills .icons .fa-sass {
   color: pink;
 }
-body main section#sobre section.habilidades .icons .fa-git-alt {
+body main section#about section.skills .icons .fa-git-alt {
   color: orangered;
 }
-body main section#sobre section.habilidades .icons i {
+body main section#about section.skills .icons i {
   margin: 0 auto;
   font-size: 3em;
   align-self: center;
 }
-body main section#sobre section.habilidades .icons h2 {
+body main section#about section.skills .icons h2 {
   font-size: 0.9em;
   color: #161a1d;
   text-align: center;
 }
-body main section#sobre section.habilidades ul {
+body main section#about section.skills ul {
   margin: 80px auto 0;
   display: flex;
 }
-body main section#sobre section.habilidades ul li {
+body main section#about section.skills ul li {
   margin: 0 auto;
 }
-body main section#sobre section.habilidades ul li i {
+body main section#about section.skills ul li i {
   display: flex;
   flex-direction: column;
   color: #a4161a;
   font-size: 1.5em;
 }
-body main section#sobre .cont {
+body main section#about .content {
   display: flex;
   width: 80%;
   margin: auto;
   height: 60vh;
   color: #000;
 }
-body main section#sobre .cont article.text_area {
+body main section#about .content article.text_area {
   width: 50%;
   margin: auto;
   text-align: right;
 }
-body main section#sobre .cont article.text_area h1 span {
+body main section#about .content article.text_area h1 span {
   font-size: 1em;
   font-weight: 400;
   color: #ba181b;
 }
-body main section#sobre .cont article.text_area p {
+body main section#about .content article.text_area p {
   margin-bottom: 20px;
 }
-body main section#sobre .cont article.text_area p em {
+body main section#about .content article.text_area p em {
   font-size: 1em;
 }
-body main section#sobre .cont article.text_area h3 {
+body main section#about .content article.text_area h3 {
   font-weight: 700;
   margin: 20px 0;
 }
-body main section#sobre .cont article.text_area ul {
+body main section#about .content article.text_area ul {
   margin-bottom: 20px;
 }
-body main section#sobre .cont article.text_area a {
+body main section#about .content article.text_area a {
   background: #a4161a;
   color: #fff;
   padding: 8px 20px;
   border-radius: 5px;
 }
-body main section#sobre .cont article.img_cv {
+body main section#about .content article.img_cv {
   margin: auto;
   width: 50%;
 }
-body main section#sobre .cont article.img_cv .img {
+body main section#about .content article.img_cv .img {
   margin: auto;
   padding: 10px;
   width: 70%;
@@ -295,7 +298,7 @@ body footer .container .sayhello a {
   border: 1.5px solid #000;
   border-radius: 5px;
 }
-body footer .container .endereco {
+body footer .container .address {
   margin: auto 50px;
   text-align: left;
   padding-right: 40px;
