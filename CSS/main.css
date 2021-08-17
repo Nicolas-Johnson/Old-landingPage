@@ -195,7 +195,7 @@ body main section#about .content {
 body main section#about .content article.text_area {
   width: 50%;
   margin: auto;
-  text-align: right;
+  text-align: center;
 }
 body main section#about .content article.text_area h1 span {
   font-size: 1em;
